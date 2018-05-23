@@ -1,0 +1,33 @@
+{
+  "name": "quickswift",
+  "version": "0.0.1",
+  "summary": "Quick swift",
+  "description": "This is a quick swift.",
+  "homepage": "https://github.com/TongCui/quickswift",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Tong Cui": "tongcui.dev@gmail.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/TongCui/quickswift.git",
+    "branch": "master"
+  },
+  "source_files": "QuickSwift/QuickSwift/**/*.swift",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "OHHTTPStubs/Swift": [
+
+    ]
+  }
+}

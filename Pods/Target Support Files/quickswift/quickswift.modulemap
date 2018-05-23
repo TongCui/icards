@@ -1,0 +1,6 @@
+framework module quickswift {
+  umbrella header "quickswift-umbrella.h"
+
+  export *
+  module * { export * }
+}
