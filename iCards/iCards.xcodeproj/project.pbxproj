@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07152DF220C4DA9700326D52 /* CrossFadeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DF120C4DA9600326D52 /* CrossFadeSegue.swift */; };
+		07152DF420C4DBCC00326D52 /* SegueId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DF320C4DBCC00326D52 /* SegueId.swift */; };
+		07152DF720C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DF620C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift */; };
+		07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */; };
+		07152DFB20C4E16700326D52 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DFA20C4E16700326D52 /* Log.swift */; };
 		072175CB20B50D2800529879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175CA20B50D2800529879 /* AppDelegate.swift */; };
 		072175CD20B50D2800529879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175CC20B50D2800529879 /* ViewController.swift */; };
 		072175D020B50D2800529879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072175CE20B50D2800529879 /* Main.storyboard */; };
@@ -15,6 +20,18 @@
 		072175E020B50D2B00529879 /* iCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175DF20B50D2B00529879 /* iCardsTests.swift */; };
 		072175EB20B50D2B00529879 /* iCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175EA20B50D2B00529879 /* iCardsUITests.swift */; };
 		072175F920B50DE800529879 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 072175F820B50DE800529879 /* GoogleService-Info.plist */; };
+		0729432620BBF37D009FA3D4 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942EC20BBF37D009FA3D4 /* Style.swift */; };
+		0729432720BBF37D009FA3D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942EE20BBF37D009FA3D4 /* Constants.swift */; };
+		0729432820BBF37D009FA3D4 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942EF20BBF37D009FA3D4 /* Services.swift */; };
+		0729432920BBF37D009FA3D4 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942F020BBF37D009FA3D4 /* Requests.swift */; };
+		0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942F220BBF37D009FA3D4 /* UsagePath.swift */; };
+		0729432E20BBF37D009FA3D4 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942F720BBF37D009FA3D4 /* CGFloatExtensions.swift */; };
+		0729432F20BBF37D009FA3D4 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942F820BBF37D009FA3D4 /* UIViewControllerExtensions.swift */; };
+		0729433220BBF37D009FA3D4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942FC20BBF37D009FA3D4 /* BaseViewController.swift */; };
+		0729433D20BBF37D009FA3D4 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729430820BBF37D009FA3D4 /* PopoverViewController.swift */; };
+		0729434320BBF37D009FA3D4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */; };
+		0729435B20BBF42C009FA3D4 /* BaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729435A20BBF42C009FA3D4 /* BaseAdapter.swift */; };
+		0729435D20BBF5DE009FA3D4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */; };
 		0987C5541421AB4467B68B15 /* Pods_iCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D542213061CFACCC5DEBAFE /* Pods_iCards.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07152DF120C4DA9600326D52 /* CrossFadeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossFadeSegue.swift; sourceTree = "<group>"; };
+		07152DF320C4DBCC00326D52 /* SegueId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueId.swift; sourceTree = "<group>"; };
+		07152DF620C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCloudMessageExtensions.swift; sourceTree = "<group>"; };
+		07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthExtensions.swift; sourceTree = "<group>"; };
+		07152DFA20C4E16700326D52 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		072175C720B50D2800529879 /* iCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072175CA20B50D2800529879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		072175CC20B50D2800529879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +72,19 @@
 		072175EA20B50D2B00529879 /* iCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCardsUITests.swift; sourceTree = "<group>"; };
 		072175EC20B50D2B00529879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072175F820B50DE800529879 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		072942EC20BBF37D009FA3D4 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		072942EE20BBF37D009FA3D4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		072942EF20BBF37D009FA3D4 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		072942F020BBF37D009FA3D4 /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		072942F220BBF37D009FA3D4 /* UsagePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsagePath.swift; sourceTree = "<group>"; };
+		072942F720BBF37D009FA3D4 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
+		072942F820BBF37D009FA3D4 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		072942FC20BBF37D009FA3D4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0729430820BBF37D009FA3D4 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0729435A20BBF42C009FA3D4 /* BaseAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAdapter.swift; sourceTree = "<group>"; };
+		0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		07665E4320B804450011A269 /* iCards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = iCards.entitlements; path = ../iCards.entitlements; sourceTree = "<group>"; };
 		0D542213061CFACCC5DEBAFE /* Pods_iCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A64A20897BDA0BE55A61A52 /* Pods-iCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCards.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iCards/Pods-iCards.release.xcconfig"; sourceTree = "<group>"; };
 		E2473424890CCAD97D8FA259 /* Pods-iCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCards.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-iCards/Pods-iCards.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +116,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07152DF020C4DA9600326D52 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				07152DF120C4DA9600326D52 /* CrossFadeSegue.swift */,
+				07152DF320C4DBCC00326D52 /* SegueId.swift */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
+		07152DF520C4DEE900326D52 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				07152DF620C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift */,
+				07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		072175BE20B50D2800529879 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +161,7 @@
 			children = (
 				072175CA20B50D2800529879 /* AppDelegate.swift */,
 				072175CC20B50D2800529879 /* ViewController.swift */,
+				072942EA20BBF37D009FA3D4 /* Source */,
 				072175FA20B513DB00529879 /* SupportingFiles */,
 			);
 			path = iCards;
@@ -134,6 +188,7 @@
 		072175FA20B513DB00529879 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				07665E4320B804450011A269 /* iCards.entitlements */,
 				072175CE20B50D2800529879 /* Main.storyboard */,
 				072175D120B50D2B00529879 /* Assets.xcassets */,
 				072175D320B50D2B00529879 /* LaunchScreen.storyboard */,
@@ -141,6 +196,84 @@
 				072175F820B50DE800529879 /* GoogleService-Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		072942EA20BBF37D009FA3D4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				07152DF520C4DEE900326D52 /* Firebase */,
+				072942EB20BBF37D009FA3D4 /* UI */,
+				072942ED20BBF37D009FA3D4 /* Networking */,
+				072942F120BBF37D009FA3D4 /* Models */,
+				072942F620BBF37D009FA3D4 /* Common */,
+				072942F920BBF37D009FA3D4 /* ViewControllers */,
+				0729430F20BBF37D009FA3D4 /* Table */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		072942EB20BBF37D009FA3D4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				072942EC20BBF37D009FA3D4 /* Style.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		072942ED20BBF37D009FA3D4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				072942EE20BBF37D009FA3D4 /* Constants.swift */,
+				072942EF20BBF37D009FA3D4 /* Services.swift */,
+				072942F020BBF37D009FA3D4 /* Requests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		072942F120BBF37D009FA3D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				072942F220BBF37D009FA3D4 /* UsagePath.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		072942F620BBF37D009FA3D4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				072942F720BBF37D009FA3D4 /* CGFloatExtensions.swift */,
+				072942F820BBF37D009FA3D4 /* UIViewControllerExtensions.swift */,
+				07152DFA20C4E16700326D52 /* Log.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		072942F920BBF37D009FA3D4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				072942FC20BBF37D009FA3D4 /* BaseViewController.swift */,
+				0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */,
+				0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */,
+				07152DF020C4DA9600326D52 /* Segue */,
+				0729430720BBF37D009FA3D4 /* Popover */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0729430720BBF37D009FA3D4 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				0729430820BBF37D009FA3D4 /* PopoverViewController.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		0729430F20BBF37D009FA3D4 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				0729435A20BBF42C009FA3D4 /* BaseAdapter.swift */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 		1DD275E52B873DEE96CA2FBD /* Frameworks */ = {
@@ -172,6 +305,7 @@
 				072175C420B50D2800529879 /* Frameworks */,
 				072175C520B50D2800529879 /* Resources */,
 				4B151B5724339291EF381CE3 /* [CP] Embed Pods Frameworks */,
+				CFC61D0EF18BA36785DFE3EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +364,14 @@
 				TargetAttributes = {
 					072175C620B50D2800529879 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					072175DA20B50D2B00529879 = {
 						CreatedOnToolsVersion = 9.3;
@@ -316,28 +458,62 @@
 			inputPaths = (
 				"${SRCROOT}/../Pods/Target Support Files/Pods-iCards/Pods-iCards-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${BUILT_PRODUCTS_DIR}/quickswift/quickswift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/quickswift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iCards/Pods-iCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC61D0EF18BA36785DFE3EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-iCards/Pods-iCards-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iCards/Pods-iCards-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -347,8 +523,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0729433D20BBF37D009FA3D4 /* PopoverViewController.swift in Sources */,
+				0729432820BBF37D009FA3D4 /* Services.swift in Sources */,
+				07152DF420C4DBCC00326D52 /* SegueId.swift in Sources */,
+				0729434320BBF37D009FA3D4 /* SettingsViewController.swift in Sources */,
 				072175CD20B50D2800529879 /* ViewController.swift in Sources */,
+				0729435B20BBF42C009FA3D4 /* BaseAdapter.swift in Sources */,
+				0729435D20BBF5DE009FA3D4 /* SplashViewController.swift in Sources */,
+				0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */,
+				07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */,
+				0729433220BBF37D009FA3D4 /* BaseViewController.swift in Sources */,
+				0729432F20BBF37D009FA3D4 /* UIViewControllerExtensions.swift in Sources */,
+				0729432620BBF37D009FA3D4 /* Style.swift in Sources */,
+				07152DF220C4DA9700326D52 /* CrossFadeSegue.swift in Sources */,
+				0729432920BBF37D009FA3D4 /* Requests.swift in Sources */,
+				07152DFB20C4E16700326D52 /* Log.swift in Sources */,
 				072175CB20B50D2800529879 /* AppDelegate.swift in Sources */,
+				07152DF720C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift in Sources */,
+				0729432720BBF37D009FA3D4 /* Constants.swift in Sources */,
+				0729432E20BBF37D009FA3D4 /* CGFloatExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,9 +715,11 @@
 			baseConfigurationReference = E2473424890CCAD97D8FA259 /* Pods-iCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCards/SupportingFiles/iCards.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENF6RU9UQS;
-				INFOPLIST_FILE = iCards/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iCards/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,9 +736,11 @@
 			baseConfigurationReference = 8A64A20897BDA0BE55A61A52 /* Pods-iCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCards/SupportingFiles/iCards.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENF6RU9UQS;
-				INFOPLIST_FILE = iCards/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iCards/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

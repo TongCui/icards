@@ -15,7 +15,10 @@ target :iCards do
   pod 'SwiftyBeaver'
   pod 'quickswift', :git=>'https://github.com/TongCui/quickswift.git'
   pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
   pod 'Firebase/Auth'
+  pod 'FirebaseUI/Phone'
+  pod 'Firebase/Firestore'
 
 end
 
