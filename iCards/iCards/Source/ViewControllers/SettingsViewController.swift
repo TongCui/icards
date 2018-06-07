@@ -17,7 +17,7 @@ final class SettingsAdapter: PMPAdapter {
 final class SettingsViewController: BaseViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    lazy var adapter = SettingsAdapter(tableView: tableView)
+    lazy var adapter = CardsAdapter(tableView: tableView)
 
     override func viewDidLoad() {
         super.viewDidLoad()

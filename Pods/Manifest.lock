@@ -81,6 +81,7 @@ PODS:
     - gRPC-RxLibrary (= 1.12.0)
   - GTMSessionFetcher/Core (1.1.15)
   - leveldb-library (1.20)
+  - MarkdownView (1.2.0)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
@@ -104,6 +105,9 @@ PODS:
     - Alamofire
     - OHHTTPStubs/Swift
     - SnapKit
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
   - SnapKit (4.0.0)
   - SwiftyBeaver (1.6.0)
 
@@ -115,8 +119,10 @@ DEPENDENCIES:
   - Firebase/Firestore
   - Firebase/Messaging
   - FirebaseUI/Phone
+  - MarkdownView
   - OHHTTPStubs/Swift
   - quickswift (from `https://github.com/TongCui/quickswift.git`)
+  - SDWebImage
   - SnapKit
   - SwiftyBeaver
 
@@ -141,9 +147,11 @@ SPEC REPOS:
     - gRPC-RxLibrary
     - GTMSessionFetcher
     - leveldb-library
+    - MarkdownView
     - nanopb
     - OHHTTPStubs
     - Protobuf
+    - SDWebImage
     - SnapKit
     - SwiftyBeaver
 
@@ -176,13 +184,15 @@ SPEC CHECKSUMS:
   gRPC-RxLibrary: 1ed5314e8b38cd6e55c9bfa048387136ae925ce9
   GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  MarkdownView: d72e5cca8172402a579d9ba082968af36c2faf56
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
   Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
   quickswift: 81494d5ea84c4a1095d785ddfda8185ab14478f3
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
 
-PODFILE CHECKSUM: 963c06aa9128cd1f0fdfd62d370c08a9e0ef1558
+PODFILE CHECKSUM: 6d2f3d27dc520320cb70d34fe0c00d7a1dedfe15
 
 COCOAPODS: 1.5.2

@@ -11,4 +11,6 @@ import UIKit
 extension CGFloat {
     static var marginSlim: CGFloat { return 5 }
     static var indentWidth: CGFloat { return 10 }
+    static var cardRadius: CGFloat { return 16 }
+    static var cardShadowRadius: CGFloat { return 6 }
 }

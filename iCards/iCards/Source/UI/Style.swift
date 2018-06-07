@@ -9,6 +9,11 @@
 import Foundation
 import quickswift
 
+extension CGFloat {
+    static var defaultMargin: CGFloat { return 8 }
+    static var cardMargin: CGFloat { return .defaultMargin * 2 }
+}
+
 extension UIColor {
     class var main: UIColor { return UIColor(red: 32, green: 148, blue: 250)! }
 }

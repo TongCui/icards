@@ -12,6 +12,15 @@
 		07152DF720C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DF620C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift */; };
 		07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */; };
 		07152DFB20C4E16700326D52 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DFA20C4E16700326D52 /* Log.swift */; };
+		07152DFD20C5285200326D52 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DFC20C5285200326D52 /* Models.swift */; };
+		07152E0420C53C7000326D52 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0320C53C7000326D52 /* CardsViewController.swift */; };
+		07152E0620C53E6A00326D52 /* ReviewCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0520C53E6A00326D52 /* ReviewCardsViewController.swift */; };
+		07152E0F20C53F6C00326D52 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0C20C53F6C00326D52 /* BaseViewController.swift */; };
+		07152E1020C53F6C00326D52 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0D20C53F6C00326D52 /* TabViewController.swift */; };
+		07152E1120C53F6C00326D52 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0E20C53F6C00326D52 /* NavigationViewController.swift */; };
+		07152E1620C5421700326D52 /* ProjectBaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */; };
+		07152E1920C5424300326D52 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1720C5424300326D52 /* CardCell.swift */; };
+		07152E1C20C6827200326D52 /* CellItemConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1B20C6827200326D52 /* CellItemConvertible.swift */; };
 		072175CB20B50D2800529879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175CA20B50D2800529879 /* AppDelegate.swift */; };
 		072175CD20B50D2800529879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175CC20B50D2800529879 /* ViewController.swift */; };
 		072175D020B50D2800529879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072175CE20B50D2800529879 /* Main.storyboard */; };
@@ -27,7 +36,6 @@
 		0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942F220BBF37D009FA3D4 /* UsagePath.swift */; };
 		0729432E20BBF37D009FA3D4 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942F720BBF37D009FA3D4 /* CGFloatExtensions.swift */; };
 		0729432F20BBF37D009FA3D4 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942F820BBF37D009FA3D4 /* UIViewControllerExtensions.swift */; };
-		0729433220BBF37D009FA3D4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072942FC20BBF37D009FA3D4 /* BaseViewController.swift */; };
 		0729433D20BBF37D009FA3D4 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729430820BBF37D009FA3D4 /* PopoverViewController.swift */; };
 		0729434320BBF37D009FA3D4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */; };
 		0729435B20BBF42C009FA3D4 /* BaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729435A20BBF42C009FA3D4 /* BaseAdapter.swift */; };
@@ -58,6 +66,15 @@
 		07152DF620C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCloudMessageExtensions.swift; sourceTree = "<group>"; };
 		07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthExtensions.swift; sourceTree = "<group>"; };
 		07152DFA20C4E16700326D52 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		07152DFC20C5285200326D52 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		07152E0320C53C7000326D52 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		07152E0520C53E6A00326D52 /* ReviewCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCardsViewController.swift; sourceTree = "<group>"; };
+		07152E0C20C53F6C00326D52 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		07152E0D20C53F6C00326D52 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		07152E0E20C53F6C00326D52 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectBaseAdapter.swift; sourceTree = "<group>"; };
+		07152E1720C5424300326D52 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		07152E1B20C6827200326D52 /* CellItemConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellItemConvertible.swift; sourceTree = "<group>"; };
 		072175C720B50D2800529879 /* iCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072175CA20B50D2800529879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		072175CC20B50D2800529879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +96,6 @@
 		072942F220BBF37D009FA3D4 /* UsagePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsagePath.swift; sourceTree = "<group>"; };
 		072942F720BBF37D009FA3D4 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		072942F820BBF37D009FA3D4 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
-		072942FC20BBF37D009FA3D4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0729430820BBF37D009FA3D4 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 		0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0729435A20BBF42C009FA3D4 /* BaseAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAdapter.swift; sourceTree = "<group>"; };
@@ -132,6 +148,26 @@
 				07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		07152E0B20C53F6C00326D52 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				07152E0C20C53F6C00326D52 /* BaseViewController.swift */,
+				07152E0D20C53F6C00326D52 /* TabViewController.swift */,
+				07152E0E20C53F6C00326D52 /* NavigationViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		07152E1420C5421700326D52 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */,
+				07152E1720C5424300326D52 /* CardCell.swift */,
+				07152E1B20C6827200326D52 /* CellItemConvertible.swift */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 		072175BE20B50D2800529879 = {
@@ -234,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				072942F220BBF37D009FA3D4 /* UsagePath.swift */,
+				07152DFC20C5285200326D52 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,11 +288,14 @@
 		072942F920BBF37D009FA3D4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				072942FC20BBF37D009FA3D4 /* BaseViewController.swift */,
-				0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */,
-				0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */,
+				07152E1420C5421700326D52 /* Table */,
 				07152DF020C4DA9600326D52 /* Segue */,
 				0729430720BBF37D009FA3D4 /* Popover */,
+				07152E0B20C53F6C00326D52 /* Common */,
+				0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */,
+				07152E0320C53C7000326D52 /* CardsViewController.swift */,
+				07152E0520C53E6A00326D52 /* ReviewCardsViewController.swift */,
+				0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -461,8 +501,10 @@
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MarkdownView/MarkdownView.framework",
 				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
@@ -479,8 +521,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarkdownView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
@@ -523,6 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07152E1120C53F6C00326D52 /* NavigationViewController.swift in Sources */,
 				0729433D20BBF37D009FA3D4 /* PopoverViewController.swift in Sources */,
 				0729432820BBF37D009FA3D4 /* Services.swift in Sources */,
 				07152DF420C4DBCC00326D52 /* SegueId.swift in Sources */,
@@ -531,12 +576,19 @@
 				0729435B20BBF42C009FA3D4 /* BaseAdapter.swift in Sources */,
 				0729435D20BBF5DE009FA3D4 /* SplashViewController.swift in Sources */,
 				0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */,
+				07152E0420C53C7000326D52 /* CardsViewController.swift in Sources */,
 				07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */,
-				0729433220BBF37D009FA3D4 /* BaseViewController.swift in Sources */,
+				07152E1920C5424300326D52 /* CardCell.swift in Sources */,
 				0729432F20BBF37D009FA3D4 /* UIViewControllerExtensions.swift in Sources */,
+				07152E1620C5421700326D52 /* ProjectBaseAdapter.swift in Sources */,
+				07152E0620C53E6A00326D52 /* ReviewCardsViewController.swift in Sources */,
 				0729432620BBF37D009FA3D4 /* Style.swift in Sources */,
+				07152E0F20C53F6C00326D52 /* BaseViewController.swift in Sources */,
+				07152E1020C53F6C00326D52 /* TabViewController.swift in Sources */,
 				07152DF220C4DA9700326D52 /* CrossFadeSegue.swift in Sources */,
+				07152E1C20C6827200326D52 /* CellItemConvertible.swift in Sources */,
 				0729432920BBF37D009FA3D4 /* Requests.swift in Sources */,
+				07152DFD20C5285200326D52 /* Models.swift in Sources */,
 				07152DFB20C4E16700326D52 /* Log.swift in Sources */,
 				072175CB20B50D2800529879 /* AppDelegate.swift in Sources */,
 				07152DF720C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift in Sources */,

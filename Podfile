@@ -13,6 +13,8 @@ target :iCards do
   pod 'SnapKit'
   pod 'Crashlytics'
   pod 'SwiftyBeaver'
+  pod 'SDWebImage'
+  pod "MarkdownView"
   pod 'quickswift', :git=>'https://github.com/TongCui/quickswift.git'
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
