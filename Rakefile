@@ -32,3 +32,13 @@ desc "Open workspace"
 task :open do
   sh "open #{PROJECT}.xcworkspace"
 end
+
+desc "Update README.md"
+task :readme do
+  ruby 'scripts/update_readme.rb'
+end
+
+desc "Update jsons"
+task :jsons do
+  ruby 'scripts/update_models.rb'
+end

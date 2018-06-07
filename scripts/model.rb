@@ -48,25 +48,23 @@ class Note
 
     file_content = File.open(file){|f| f.read}
     meta_regex = /<!--[^>]*>/
-    meta_content = file_content.scan(meta_regex).first[4...-3].strip
+    meta_content = file_content.scan(meta_regex).first
     meta_info = {}
-    meta_content.split("\n").each do |line|
+    meta_content[4...-3].strip.split("\n").each do |line|
       key, value = line.split(":")
       meta_info[key.strip] = value.strip
     end
-    
     self.from_dict! meta_info
-
     @content = file_content[meta_content.size...-1].strip
-
-    puts self.to_json
   end
 end
 
 class Notebook
   include JSONable
-  attr_accessor :name
+  attr_accessor :name, :notes
 
-
+  def to_short_dict
+    {:name => @name, :count => @notes.size}
+  end
 end
 
