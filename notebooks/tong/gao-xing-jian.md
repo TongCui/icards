@@ -7,7 +7,7 @@ tags: 人物
 
 ## 高行健
 
-[高行健](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/gao-xing-jian.jpg)
+![高行健](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/gao-xing-jian.jpg)
 
 - 法籍华裔
 - 首位华人诺贝尔文学奖作家

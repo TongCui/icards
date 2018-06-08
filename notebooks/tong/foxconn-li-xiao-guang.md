@@ -9,7 +9,7 @@ tags: story,人物,感动
 
 Foxconn 研发经理，重庆人
 
-[李晓光](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/li-xiao-guang.jpg)
+![李晓光](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/li-xiao-guang.jpg)
 
 - 1996年遭遇不幸，父母身亡，面容损毁，人生的照片从彩色变成黑白
 - 2003年加入富士康
