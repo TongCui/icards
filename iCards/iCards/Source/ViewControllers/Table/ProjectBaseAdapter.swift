@@ -6,7 +6,6 @@
 //  Copyright © 2018 LuckyTR. All rights reserved.
 //
 
-
 import quickswift
 
 class ProjectBaseAdapter: HeaderFooterTableAdapter, TypeName {

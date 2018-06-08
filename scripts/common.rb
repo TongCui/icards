@@ -1,8 +1,13 @@
 #!/usr/bin/env ruby
 
 require_relative 'model'
+require 'date'
 
-def project_base_folder()
+def today
+  Date.today.to_s
+end
+
+def project_base_folder
   File.expand_path("#{$0}/../../", Dir.pwd)
 end
 
@@ -42,6 +47,7 @@ def get_local_note_models(notebook)
     note.update_from_file(file)
     note
   end
-
+  models.sort! {|lhs, rhs| lhs.title <=> rhs.title}
+  models.sort! {|lhs, rhs| rhs.create <=> lhs.create}
   models
 end

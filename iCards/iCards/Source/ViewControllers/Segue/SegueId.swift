@@ -10,4 +10,6 @@ import Foundation
 
 enum SegueId: String {
     case main = "main"
+    case card = "card"
+    case cardBack = "card_back"
 }

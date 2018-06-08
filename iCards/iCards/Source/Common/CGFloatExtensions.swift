@@ -13,4 +13,5 @@ extension CGFloat {
     static var indentWidth: CGFloat { return 10 }
     static var cardRadius: CGFloat { return 16 }
     static var cardShadowRadius: CGFloat { return 6 }
+    static var cardHeight: CGFloat { return 340 }
 }

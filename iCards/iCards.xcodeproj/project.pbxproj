@@ -21,9 +21,13 @@
 		07152E1620C5421700326D52 /* ProjectBaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */; };
 		07152E1920C5424300326D52 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1720C5424300326D52 /* CardCell.swift */; };
 		07152E1C20C6827200326D52 /* CellItemConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1B20C6827200326D52 /* CellItemConvertible.swift */; };
-		07152E2320C9025F00326D52 /* doudou.json in Resources */ = {isa = PBXBuildFile; fileRef = 07152E2120C9025F00326D52 /* doudou.json */; };
-		07152E2420C9025F00326D52 /* tong.json in Resources */ = {isa = PBXBuildFile; fileRef = 07152E2220C9025F00326D52 /* tong.json */; };
 		07152E2620C9032600326D52 /* notebooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 07152E2520C9032600326D52 /* notebooks.json */; };
+		07152E2820C92E5900326D52 /* NotebookDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E2720C92E5900326D52 /* NotebookDatasource.swift */; };
+		07152E2B20CA130A00326D52 /* notebook_tong.json in Resources */ = {isa = PBXBuildFile; fileRef = 07152E2920CA130900326D52 /* notebook_tong.json */; };
+		07152E2C20CA130A00326D52 /* notebook_doudou.json in Resources */ = {isa = PBXBuildFile; fileRef = 07152E2A20CA130A00326D52 /* notebook_doudou.json */; };
+		07152E2E20CA1BE400326D52 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 07152E2D20CA1BE400326D52 /* test.json */; };
+		07152E3020CA22F500326D52 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E2F20CA22F500326D52 /* NoteViewController.swift */; };
+		07152E3220CA23D000326D52 /* CardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E3120CA23D000326D52 /* CardSegue.swift */; };
 		072175CB20B50D2800529879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175CA20B50D2800529879 /* AppDelegate.swift */; };
 		072175CD20B50D2800529879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072175CC20B50D2800529879 /* ViewController.swift */; };
 		072175D020B50D2800529879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072175CE20B50D2800529879 /* Main.storyboard */; };
@@ -78,9 +82,13 @@
 		07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectBaseAdapter.swift; sourceTree = "<group>"; };
 		07152E1720C5424300326D52 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		07152E1B20C6827200326D52 /* CellItemConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellItemConvertible.swift; sourceTree = "<group>"; };
-		07152E2120C9025F00326D52 /* doudou.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = doudou.json; sourceTree = "<group>"; };
-		07152E2220C9025F00326D52 /* tong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tong.json; sourceTree = "<group>"; };
 		07152E2520C9032600326D52 /* notebooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notebooks.json; sourceTree = "<group>"; };
+		07152E2720C92E5900326D52 /* NotebookDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookDatasource.swift; sourceTree = "<group>"; };
+		07152E2920CA130900326D52 /* notebook_tong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notebook_tong.json; sourceTree = "<group>"; };
+		07152E2A20CA130A00326D52 /* notebook_doudou.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notebook_doudou.json; sourceTree = "<group>"; };
+		07152E2D20CA1BE400326D52 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		07152E2F20CA22F500326D52 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		07152E3120CA23D000326D52 /* CardSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSegue.swift; sourceTree = "<group>"; };
 		072175C720B50D2800529879 /* iCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072175CA20B50D2800529879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		072175CC20B50D2800529879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				07152DF120C4DA9600326D52 /* CrossFadeSegue.swift */,
+				07152E3120CA23D000326D52 /* CardSegue.swift */,
 				07152DF320C4DBCC00326D52 /* SegueId.swift */,
 			);
 			path = Segue;
@@ -187,9 +196,10 @@
 		07152E2020C9017E00326D52 /* json */ = {
 			isa = PBXGroup;
 			children = (
+				07152E2D20CA1BE400326D52 /* test.json */,
 				07152E2520C9032600326D52 /* notebooks.json */,
-				07152E2120C9025F00326D52 /* doudou.json */,
-				07152E2220C9025F00326D52 /* tong.json */,
+				07152E2A20CA130A00326D52 /* notebook_doudou.json */,
+				07152E2920CA130900326D52 /* notebook_tong.json */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -296,6 +306,7 @@
 			children = (
 				072942F220BBF37D009FA3D4 /* UsagePath.swift */,
 				07152DFC20C5285200326D52 /* Models.swift */,
+				07152E2720C92E5900326D52 /* NotebookDatasource.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +331,7 @@
 				0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */,
 				07152E0320C53C7000326D52 /* CardsViewController.swift */,
 				07152E0520C53E6A00326D52 /* ReviewCardsViewController.swift */,
+				07152E2F20CA22F500326D52 /* NoteViewController.swift */,
 				0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
@@ -474,12 +486,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				072175D520B50D2B00529879 /* LaunchScreen.storyboard in Resources */,
+				07152E2E20CA1BE400326D52 /* test.json in Resources */,
 				072175F920B50DE800529879 /* GoogleService-Info.plist in Resources */,
+				07152E2B20CA130A00326D52 /* notebook_tong.json in Resources */,
 				072175D220B50D2B00529879 /* Assets.xcassets in Resources */,
-				07152E2320C9025F00326D52 /* doudou.json in Resources */,
 				072175D020B50D2800529879 /* Main.storyboard in Resources */,
 				07152E2620C9032600326D52 /* notebooks.json in Resources */,
-				07152E2420C9025F00326D52 /* tong.json in Resources */,
+				07152E2C20CA130A00326D52 /* notebook_doudou.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,9 +613,11 @@
 				0729432820BBF37D009FA3D4 /* Services.swift in Sources */,
 				07152DF420C4DBCC00326D52 /* SegueId.swift in Sources */,
 				0729434320BBF37D009FA3D4 /* SettingsViewController.swift in Sources */,
+				07152E3220CA23D000326D52 /* CardSegue.swift in Sources */,
 				072175CD20B50D2800529879 /* ViewController.swift in Sources */,
 				0729435B20BBF42C009FA3D4 /* BaseAdapter.swift in Sources */,
 				0729435D20BBF5DE009FA3D4 /* SplashViewController.swift in Sources */,
+				07152E3020CA22F500326D52 /* NoteViewController.swift in Sources */,
 				0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */,
 				07152E0420C53C7000326D52 /* CardsViewController.swift in Sources */,
 				07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */,
@@ -618,6 +633,7 @@
 				0729432920BBF37D009FA3D4 /* Requests.swift in Sources */,
 				07152DFD20C5285200326D52 /* Models.swift in Sources */,
 				07152DFB20C4E16700326D52 /* Log.swift in Sources */,
+				07152E2820C92E5900326D52 /* NotebookDatasource.swift in Sources */,
 				072175CB20B50D2800529879 /* AppDelegate.swift in Sources */,
 				07152DF720C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift in Sources */,
 				0729432720BBF37D009FA3D4 /* Constants.swift in Sources */,

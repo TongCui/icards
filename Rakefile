@@ -42,3 +42,14 @@ desc "Update jsons"
 task :jsons do
   ruby 'scripts/update_models.rb'
 end
+
+desc "New note"
+task :tong, [:new_file_name] do |task, args|
+  name = args[:new_file_name]
+  ruby "./scripts/create_note.rb tong #{name}"
+end
+
+desc "image base path"
+task :imagebase do
+  puts "https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/<image>"
+end

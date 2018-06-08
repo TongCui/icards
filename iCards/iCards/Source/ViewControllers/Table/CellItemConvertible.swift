@@ -12,11 +12,8 @@ protocol CellItemConvertible {
     func toCellItem() -> CellItemProtocol
 }
 
-extension Card: CellItemConvertible {
+extension Note: CellItemConvertible {
     func toCellItem() -> CellItemProtocol {
-        switch cardType {
-        case .text:     return TextCardCellItem(card: self)
-        case .image:    return ImageCardCellItem(card: self)
-        }
+        return CardCellItem(note: self)
     }
 }

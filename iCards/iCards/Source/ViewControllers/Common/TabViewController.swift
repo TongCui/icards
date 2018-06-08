@@ -9,16 +9,12 @@
 import UIKit
 
 final class TabController: UITabBarController {
-    
-    var originalViewControllers: [UIViewController] = []
-    
 
-    
+    var originalViewControllers: [UIViewController] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
     }
-    
-    
+
 }

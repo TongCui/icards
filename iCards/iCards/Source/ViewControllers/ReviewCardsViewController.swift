@@ -11,11 +11,10 @@ import UIKit
 final class ReviewCardsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     lazy var adapter = CardsAdapter(tableView: tableView)
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         adapter.reloadData()
     }
-
 
 }

@@ -53,11 +53,42 @@
                     <navigationItem key="navigationItem" title="Cards" id="56d-Em-Kme"/>
                     <connections>
                         <outlet property="tableView" destination="fNf-5n-act" id="pHk-gw-Tk0"/>
+                        <segue destination="IL0-Ra-tP3" kind="show" identifier="card" id="5PE-F4-OSZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONO-AQ-xwE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4344.8000000000002" y="-723.68815592203907"/>
+        </scene>
+        <!--Note View Controller-->
+        <scene sceneID="Lly-hB-yiz">
+            <objects>
+                <viewController storyboardIdentifier="NoteViewController" id="IL0-Ra-tP3" customClass="NoteViewController" customModule="iCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0em-pr-lTg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VGs-tR-ZWW" customClass="MarkdownView" customModule="MarkdownView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VGs-tR-ZWW" firstAttribute="bottom" secondItem="0em-pr-lTg" secondAttribute="bottom" id="Cal-le-7kC"/>
+                            <constraint firstItem="VGs-tR-ZWW" firstAttribute="top" secondItem="0em-pr-lTg" secondAttribute="top" id="Jxi-5R-LUk"/>
+                            <constraint firstItem="VGs-tR-ZWW" firstAttribute="leading" secondItem="0em-pr-lTg" secondAttribute="leading" id="vwn-41-r9j"/>
+                            <constraint firstAttribute="trailing" secondItem="VGs-tR-ZWW" secondAttribute="trailing" id="xml-Ax-zeF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wjd-gb-aUG"/>
+                    </view>
+                    <connections>
+                        <outlet property="markdownView" destination="VGs-tR-ZWW" id="Bhn-ow-cwu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVz-8e-MVC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5356" y="-723.68815592203907"/>
         </scene>
         <!--Tab Controller-->
         <scene sceneID="wfh-a0-KYr">

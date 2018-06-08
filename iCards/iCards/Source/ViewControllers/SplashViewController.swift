@@ -14,7 +14,7 @@ final class SplashViewController: BaseViewController {
         view.backgroundColor = UIColor.green
         test()
     }
-    
+
     func test() {
 //        let note = Note(name: "test", createTime: Date(), updateTime: Date().addingTimeInterval(3600))
 //        let string = try! note.toJSONString()

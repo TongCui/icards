@@ -41,6 +41,7 @@ end
 class Note
   include JSONable
   attr_accessor :title, :from, :create, :update, :tags
+  attr_accessor :image, :type
   attr_accessor :file_name, :content
 
   def update_from_file(file)
@@ -56,6 +57,21 @@ class Note
     end
     self.from_dict! meta_info
     @content = file_content[meta_content.size...-1].strip
+
+    image_base = "https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/"
+    image_regex = /\(#{image_base}.+\)/
+    first_matched = content.scan(image_regex).first
+
+    @type = "text"
+    unless first_matched.nil?
+      @image = first_matched[1...-1]
+      @type = "image"
+    end
+
+    if @update.nil?
+      @update = @create
+    end
+
   end
 end
 

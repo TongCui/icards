@@ -8,14 +8,9 @@
 
 import quickswift
 
-protocol RecordItem {
-    var createTime: Date { get set }
-    var updateTime: Date { get set }
-}
-
-fileprivate let recordFormatter: DateFormatter = {
+private let recordFormatter: DateFormatter = {
     let formatter = DateFormatter()
-    formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+    formatter.dateFormat = "yyyy-MM-dd"
     return formatter
 }()
 
@@ -25,48 +20,47 @@ extension Date {
     }
 }
 
-extension RecordItem {
-    static func decodeSettings() -> (JSONDecoder) -> Void {
-        return { decoder in
-            decoder.dateDecodingStrategy = .formatted(recordFormatter)
-        }
-    }
-    
-    static func encodeSettings() -> (JSONEncoder) -> Void {
-        return { encoder in
-            encoder.dateEncodingStrategy = .formatted(recordFormatter)
-        }
-    }
-}
+struct Note: Codable {
 
-struct Card: Codable, CustomCodable, RecordItem {
-    
     enum CardType: String {
         case text
         case image
     }
-    
+
     var title: String
+    var from: String
+    var create: String
+    var update: String
+    var tags: String
+    var type: String?
     var image: String?
     var content: String?
-    var type: String
-   
-    var createTime: Date
-    var updateTime: Date
-    
+
+    var tagComponents: [String] {
+        return tags.components(separatedBy: CharacterSet(charactersIn: ",，|"))
+    }
+
     var cardType: CardType {
+        guard let type = self.type else {
+            return .text
+        }
         return CardType(rawValue: type) ?? .text
+    }
+
+}
+
+struct NotebookCatalog: Codable {
+    var name: String
+    var count: Int
+}
+
+extension NotebookCatalog {
+    var notebook: Notebook? {
+        return NotebookDatasource.shared.notebook(with: name)
     }
 }
 
-struct Note: Codable {
-    var markdown: String
-}
-
-struct Notebook: Codable, CustomCodable, RecordItem {
+struct Notebook: Codable {
     var name: String
-    var icon: String
-    
-    var createTime: Date
-    var updateTime: Date
+    var notes: [Note]
 }

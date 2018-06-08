@@ -14,7 +14,7 @@ def update_notebooks_json_files
     notebooks << notebook.to_short_dict
     notebook.notes = notebook.notes.map{|e| e.to_dict}
     json = {:data => notebook.to_dict}.to_json
-    json_file_path = project_json_path(notebook.name)
+    json_file_path = project_json_path("notebook_#{notebook.name}")
     File.open(json_file_path, 'w'){|f| f.write json}
   end
 
@@ -25,3 +25,4 @@ end
 
 # generate models and update json files
 update_notebooks_json_files
+puts "Done"

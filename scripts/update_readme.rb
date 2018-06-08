@@ -34,7 +34,7 @@ def update_readme
     dates_map = Hash.new { |hash, key| hash[key] = [] }
     notebook.notes.each { |note| dates_map[note.create] << note }
     
-    dates_map.sort.each do |date, notes|
+    dates_map.sort{|x, y| y<=>x}.each do |date, notes|
       lines << "#{date_prefix} #{date}"
       notes.sort{|lhs, rhs|lhs.title <=> rhs.title}.each do |note|
         lines << "- [#{note.title}](/notebooks/#{notebook.name}/#{note.file_name})"
