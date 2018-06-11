@@ -8,8 +8,11 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (7 Notes)
+###  tong (9 Notes)
 
+#####  2018-06-11
+- [郭台铭提出的工业](/notebooks/tong/yun-yi-wu-da-zhi-wang.md)
+- [霍尔果斯](/notebooks/tong/huo-er-guo-si.md)
 #####  2018-06-08
 - [富士康李晓光](/notebooks/tong/foxconn-li-xiao-guang.md)
 - [高行健-2000年诺贝尔文学奖](/notebooks/tong/gao-xing-jian.md)

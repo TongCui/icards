@@ -63,4 +63,8 @@ extension NotebookCatalog {
 struct Notebook: Codable {
     var name: String
     var notes: [Note]
+    
+    var groupedNotes: [String: [Note]] {
+        return notes.group { note in note.create }
+    }
 }
