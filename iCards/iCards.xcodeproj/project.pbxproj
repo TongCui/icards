@@ -13,13 +13,13 @@
 		07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */; };
 		07152DFB20C4E16700326D52 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DFA20C4E16700326D52 /* Log.swift */; };
 		07152DFD20C5285200326D52 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152DFC20C5285200326D52 /* Models.swift */; };
-		07152E0420C53C7000326D52 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0320C53C7000326D52 /* CardsViewController.swift */; };
-		07152E0620C53E6A00326D52 /* ReviewCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0520C53E6A00326D52 /* ReviewCardsViewController.swift */; };
+		07152E0420C53C7000326D52 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0320C53C7000326D52 /* NotesViewController.swift */; };
+		07152E0620C53E6A00326D52 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0520C53E6A00326D52 /* ReviewViewController.swift */; };
 		07152E0F20C53F6C00326D52 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0C20C53F6C00326D52 /* BaseViewController.swift */; };
 		07152E1020C53F6C00326D52 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0D20C53F6C00326D52 /* TabViewController.swift */; };
 		07152E1120C53F6C00326D52 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E0E20C53F6C00326D52 /* NavigationViewController.swift */; };
 		07152E1620C5421700326D52 /* ProjectBaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */; };
-		07152E1920C5424300326D52 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1720C5424300326D52 /* CardCell.swift */; };
+		07152E1920C5424300326D52 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1720C5424300326D52 /* NoteCell.swift */; };
 		07152E1C20C6827200326D52 /* CellItemConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E1B20C6827200326D52 /* CellItemConvertible.swift */; };
 		07152E2620C9032600326D52 /* notebooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 07152E2520C9032600326D52 /* notebooks.json */; };
 		07152E2820C92E5900326D52 /* NotebookDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07152E2720C92E5900326D52 /* NotebookDatasource.swift */; };
@@ -74,13 +74,13 @@
 		07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthExtensions.swift; sourceTree = "<group>"; };
 		07152DFA20C4E16700326D52 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		07152DFC20C5285200326D52 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		07152E0320C53C7000326D52 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
-		07152E0520C53E6A00326D52 /* ReviewCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCardsViewController.swift; sourceTree = "<group>"; };
+		07152E0320C53C7000326D52 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		07152E0520C53E6A00326D52 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		07152E0C20C53F6C00326D52 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		07152E0D20C53F6C00326D52 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		07152E0E20C53F6C00326D52 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectBaseAdapter.swift; sourceTree = "<group>"; };
-		07152E1720C5424300326D52 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		07152E1720C5424300326D52 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		07152E1B20C6827200326D52 /* CellItemConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellItemConvertible.swift; sourceTree = "<group>"; };
 		07152E2520C9032600326D52 /* notebooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notebooks.json; sourceTree = "<group>"; };
 		07152E2720C92E5900326D52 /* NotebookDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookDatasource.swift; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */,
-				07152E1720C5424300326D52 /* CardCell.swift */,
+				07152E1720C5424300326D52 /* NoteCell.swift */,
 				07152E1B20C6827200326D52 /* CellItemConvertible.swift */,
 			);
 			path = Table;
@@ -329,8 +329,8 @@
 				0729430720BBF37D009FA3D4 /* Popover */,
 				07152E0B20C53F6C00326D52 /* Common */,
 				0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */,
-				07152E0320C53C7000326D52 /* CardsViewController.swift */,
-				07152E0520C53E6A00326D52 /* ReviewCardsViewController.swift */,
+				07152E0320C53C7000326D52 /* NotesViewController.swift */,
+				07152E0520C53E6A00326D52 /* ReviewViewController.swift */,
 				07152E2F20CA22F500326D52 /* NoteViewController.swift */,
 				0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */,
 			);
@@ -619,12 +619,12 @@
 				0729435D20BBF5DE009FA3D4 /* SplashViewController.swift in Sources */,
 				07152E3020CA22F500326D52 /* NoteViewController.swift in Sources */,
 				0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */,
-				07152E0420C53C7000326D52 /* CardsViewController.swift in Sources */,
+				07152E0420C53C7000326D52 /* NotesViewController.swift in Sources */,
 				07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */,
-				07152E1920C5424300326D52 /* CardCell.swift in Sources */,
+				07152E1920C5424300326D52 /* NoteCell.swift in Sources */,
 				0729432F20BBF37D009FA3D4 /* UIViewControllerExtensions.swift in Sources */,
 				07152E1620C5421700326D52 /* ProjectBaseAdapter.swift in Sources */,
-				07152E0620C53E6A00326D52 /* ReviewCardsViewController.swift in Sources */,
+				07152E0620C53E6A00326D52 /* ReviewViewController.swift in Sources */,
 				0729432620BBF37D009FA3D4 /* Style.swift in Sources */,
 				07152E0F20C53F6C00326D52 /* BaseViewController.swift in Sources */,
 				07152E1020C53F6C00326D52 /* TabViewController.swift in Sources */,

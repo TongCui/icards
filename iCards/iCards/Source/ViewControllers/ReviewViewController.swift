@@ -1,5 +1,5 @@
 //
-//  ReviewCardsViewController.swift
+//  ReviewViewController.swift
 //  iCards
 //
 //  Created by tcui on 4/6/2018.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-final class ReviewCardsViewController: UIViewController {
+final class ReviewViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
-    lazy var adapter = CardsAdapter(tableView: tableView)
+    lazy var adapter = NotesAdapter(tableView: tableView)
 
     override func viewDidLoad() {
         super.viewDidLoad()

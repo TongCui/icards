@@ -14,6 +14,6 @@ protocol CellItemConvertible {
 
 extension Note: CellItemConvertible {
     func toCellItem() -> CellItemProtocol {
-        return CardCellItem(note: self)
+        return NoteCellItem(note: self)
     }
 }

@@ -34,7 +34,7 @@ final class CardsAdapter: ProjectBaseAdapter {
     }
 }
 
-final class CardsViewController: UIViewController {
+final class NotesViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
     lazy var adapter = CardsAdapter(tableView: tableView)

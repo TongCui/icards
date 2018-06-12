@@ -15,6 +15,7 @@ target :iCards do
   pod 'SwiftyBeaver'
   pod 'SDWebImage'
   pod "MarkdownView"
+  #pod 'SwiftyMarkdown'
   pod 'quickswift', :git=>'https://github.com/TongCui/quickswift.git'
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'

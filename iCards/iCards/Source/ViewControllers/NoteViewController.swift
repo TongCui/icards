@@ -17,7 +17,8 @@ final class NoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = note?.title
-        markdownView.load(markdown: note?.content, enableImage: true)
+        DispatchQueue.main.async {
+            self.markdownView.load(markdown: self.note?.content, enableImage: true)
+        }
     }
-
 }

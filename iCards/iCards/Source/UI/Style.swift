@@ -10,8 +10,8 @@ import Foundation
 import quickswift
 
 extension CGFloat {
-    static var defaultMargin: CGFloat { return 8 }
-    static var cardMargin: CGFloat { return .defaultMargin * 2 }
+    static var defaultLabelsMargin: CGFloat { return 4 }
+    
 }
 
 extension UIColor {
