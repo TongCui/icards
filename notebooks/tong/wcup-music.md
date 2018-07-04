@@ -7,7 +7,7 @@ tags: sports,music
 
 ## 世界杯主题曲
 
-- 1990 意大利 意大利之夏（UN'ESTATE ITALIANA）[![Youtube](http://img.youtube.com/vi/o29S2o148PM/0.jpg)](https://www.youtube.com/watch?v=o29S2o148PM)
+- 1990 意大利 意大利之夏（UN'ESTATE ITALIANA）
   * 德国
   * 阿根廷
 
