@@ -7,6 +7,10 @@ def project_json_path(name)
   File.join(project_base_folder, "iCards/iCards/Resource/json", "#{name}.json")
 end
 
+def notebook_json_path(name)
+  File.join(project_base_folder, "notebooks", "#{name}.json")
+end
+
 def update_notebooks_json_files
   models = get_local_notebooks_models
   notebooks = []
@@ -16,10 +20,14 @@ def update_notebooks_json_files
     json = {:data => notebook.to_dict}.to_json
     json_file_path = project_json_path("notebook_#{notebook.name}")
     File.open(json_file_path, 'w'){|f| f.write json}
+    json_file_path = notebook_json_path("notebook_#{notebook.name}")
+    File.open(json_file_path, "w"){|f| f.write json}
   end
 
   json = {:data => notebooks}.to_json
   path = project_json_path("notebooks")
+  File.open(path, "w"){|f| f.write json}
+  path = notebook_json_path("notebooks")
   File.open(path, "w"){|f| f.write json}
 end
 
