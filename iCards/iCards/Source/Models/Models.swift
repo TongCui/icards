@@ -54,11 +54,11 @@ struct NotebookCatalog: Codable {
     var count: Int
 }
 
-extension NotebookCatalog {
-    var notebook: Notebook? {
-        return NotebookDatasource.shared.notebook(with: name)
-    }
-}
+//extension NotebookCatalog {
+//    var notebook: Notebook? {
+//        return NotebookDatasource.shared.notebook(with: name)
+//    }
+//}
 
 struct Notebook: Codable {
     var name: String

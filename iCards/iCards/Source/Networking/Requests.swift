@@ -9,24 +9,21 @@
 import quickswift
 
 enum Requests: RequestModelConvertible {
+//raw.githubusercontent.com/TongCui/icards/master/notebooks/
+    var host: String { return "https://raw.githubusercontent.com" }
 
-    var host: String { return "http://115.28.178.25" }
-
-    case constant
-    case news
+    case notebooks
+    case notebook(name: String)
 
     func toRequestModel() -> RequestModel {
         switch self {
-        case .constant:     return RequestModel(.get, .http, host, "/pmpjson/constants_v\(version()).json")
-        case .news:         return RequestModel(.get, .http, host, "/pmp/news.json")
+        case .notebooks:
+            return RequestModel(.get, .https, host, "/TongCui/icards/master/notebooks/notebooks.json")
+        case .notebook(let name):
+            return RequestModel(.get, .https, host, "/TongCui/icards/master/notebooks/notebook_\(name).json")
         }
     }
 
-    func version() -> String {
-        let dictionary = Bundle.main.infoDictionary!
-        let version = dictionary["CFBundleShortVersionString"] as! String
-        return version
-    }
 }
 
 struct DefaultResponse<T: Codable> : Codable {
