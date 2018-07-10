@@ -36,12 +36,9 @@ end
 desc "Update README.md"
 task :readme do
   ruby 'scripts/update_readme.rb'
-end
-
-desc "Update jsons"
-task :jsons do
   ruby 'scripts/update_models.rb'
 end
+
 
 desc "New note"
 task :tong, [:new_file_name] do |task, args|

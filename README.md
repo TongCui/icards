@@ -8,12 +8,25 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (22 Notes)
+###  tong (30 Notes)
 
+#####  2018-07-10
+- [国进民退](/notebooks/tong/guo-jin-min-tui.md)
+#####  2018-07-09
+- [改革开放](/notebooks/tong/reform-and-opening.md)
+#####  2018-07-07
+- [洋务运动](/notebooks/tong/yang-wu-yun-dong.md)
+#####  2018-07-06
+- [对冲基金](/notebooks/tong/hedge-fund.md)
+#####  2018-07-05
+- [宋的买扑钞引](/notebooks/tong/mai-pu-chao-yin.md)
+- [己所不欲勿施于人](/notebooks/tong/motto.md)
+- [王安石](/notebooks/tong/wang-an-shi.md)
 #####  2018-07-04
 - [李笑来](/notebooks/tong/li-xiao-lai.md)
 - [欧洲杯](/notebooks/tong/euro-cup.md)
 - [紫气东来](/notebooks/tong/zi-qi-dong-lai.md)
+- [香蕉球，落叶球和电梯球](/notebooks/tong/football-types.md)
 #####  2018-06-26
 - [世界杯主题曲](/notebooks/tong/wcup-music.md)
 #####  2018-06-19
