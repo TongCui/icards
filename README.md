@@ -8,8 +8,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (30 Notes)
+###  tong (31 Notes)
 
+#####  2018-07-11
+- [世界杯国家名](/notebooks/tong/wcup-countries.md)
 #####  2018-07-10
 - [国进民退](/notebooks/tong/guo-jin-min-tui.md)
 #####  2018-07-09
