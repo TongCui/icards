@@ -8,8 +8,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (33 Notes)
+###  tong (34 Notes)
 
+#####  2018-07-14
+- [口红效应](/notebooks/tong/lipstick-effect.md)
 #####  2018-07-13
 - [Network Info](/notebooks/tong/network-info.md)
 - [慢性粒细胞白血病](/notebooks/tong/bai-xue-bing.md)
