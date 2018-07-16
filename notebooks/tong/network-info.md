@@ -22,3 +22,7 @@ enable the Access WiFi Information capability
 - BSSID
   * Basic Service Set (BSS)
   * 一群计算机设定相同的BSS名称，即可自成一个group，而此BSS名称，即所谓BSSID。
+  * AP的Mac Address(6 bytes)，一個AP無線訊號所涵蓋的範圍即為BSS
+  ```
+  BSSID = "0:be:75:dd:18:f";
+  ```

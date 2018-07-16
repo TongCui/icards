@@ -2,6 +2,7 @@
 title: 世界杯主题曲
 from: tv
 create: 2018-06-26
+update: 2018-07-16
 tags: sports,music
 -->
 
@@ -36,5 +37,7 @@ tags: sports,music
   * 阿根廷
 
 - 2018 俄罗斯 俄罗斯，前进！（Команда）
+  * 法国
+  * 克罗地亚
   
 
