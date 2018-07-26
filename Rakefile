@@ -46,6 +46,13 @@ task :tong, [:new_file_name] do |task, args|
   ruby "./scripts/create_note.rb tong #{name}"
 end
 
+desc "Push git"
+task :push do
+  sh "git add ."
+  sh "git commit -m '[*]more notes'"
+  sh "git push origin master"
+end
+
 desc "image base path"
 task :imagebase do
   puts "https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/<image>"
