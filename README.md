@@ -8,8 +8,13 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (51 Notes)
+###  tong (55 Notes)
 
+#####  2018-08-14
+- [EU Blocking Statute](/notebooks/tong/blocking-statute.md)
+- [一带一路](/notebooks/tong/belt-and-road.md)
+- [厄齐尔](/notebooks/tong/ozil.md)
+- [心理感染](/notebooks/tong/mental-contagion.md)
 #####  2018-08-10
 - [中国的金融体系](/notebooks/tong/china-financial-system.md)
 - [汇率](/notebooks/tong/exchange-rate.md)
