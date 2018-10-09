@@ -8,9 +8,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (77 Notes)
+###  tong (78 Notes)
 
 #####  2018-10-09
+- [Special Unicode](/notebooks/tong/unicode-202e.md)
 - [伊藤穰一](/notebooks/tong/yi-teng-rang-yi.md)
 - [诺贝尔2018经济学奖](/notebooks/tong/nobel-economic-2018.md)
 #####  2018-10-08
