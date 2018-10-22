@@ -1,8 +1,17 @@
 <!-- 
-title: <title>
-from: <from>
+title: 泡沫经济学
+from: 老齐
 create: 2018-10-22
-tags: <tag,tag>
+tags: book,reading
 -->
 
-## economic-bubble
+## 泡沫经济学
+
+- Economic Bubble
+- 野口悠纪雄
+- 17世纪荷兰郁金香泡沫
+- 1719 法国密西西比股市泡沫
+- 18世纪英国的南海公司经济泡沫
+- 1980年代日本泡沫经济
+- 1999-2000 美国互联网泡沫
+
