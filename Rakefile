@@ -47,7 +47,7 @@ task :tong, [:new_file_name] do |task, args|
 end
 
 desc "Push git"
-task :push do
+task :push => [:readme] do
   sh "git add ."
   sh "git commit -m '[*]more notes'"
   sh "git push origin master"
