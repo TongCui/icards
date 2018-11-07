@@ -13,7 +13,6 @@ tags: ios
 - such as dividing by zero, loading memory from a misaligned pointer, or dereferencing a null pointer
 - How UBSan Works
 	- The Undefined Behavior Sanitizer works by using Clang to emit checks into your code during compilation. 
-
 - Performance Impact - an average 20% CPU overhead in the Debug configuration.
 	
 ```
