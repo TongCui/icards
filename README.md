@@ -8,8 +8,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (89 Notes)
+###  tong (90 Notes)
 
+#####  2018-12-06
+- [基因改造婴儿](/notebooks/tong/gene-edited-baby.md)
 #####  2018-11-16
 - [Tagged Pointer](/notebooks/tong/tagged-pointer.md)
 #####  2018-11-09
