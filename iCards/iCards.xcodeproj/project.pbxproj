@@ -149,8 +149,8 @@
 		07152DF020C4DA9600326D52 /* Segue */ = {
 			isa = PBXGroup;
 			children = (
-				07152DF120C4DA9600326D52 /* CrossFadeSegue.swift */,
 				07152E3120CA23D000326D52 /* CardSegue.swift */,
+				07152DF120C4DA9600326D52 /* CrossFadeSegue.swift */,
 				07152DF320C4DBCC00326D52 /* SegueId.swift */,
 			);
 			path = Segue;
@@ -159,8 +159,8 @@
 		07152DF520C4DEE900326D52 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				07152DF620C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift */,
 				07152DF820C4DF8300326D52 /* FirebaseAuthExtensions.swift */,
+				07152DF620C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -169,8 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				07152E0C20C53F6C00326D52 /* BaseViewController.swift */,
-				07152E0D20C53F6C00326D52 /* TabViewController.swift */,
 				07152E0E20C53F6C00326D52 /* NavigationViewController.swift */,
+				07152E0D20C53F6C00326D52 /* TabViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -178,9 +178,9 @@
 		07152E1420C5421700326D52 /* Table */ = {
 			isa = PBXGroup;
 			children = (
-				07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */,
-				07152E1720C5424300326D52 /* NoteCell.swift */,
 				07152E1B20C6827200326D52 /* CellItemConvertible.swift */,
+				07152E1720C5424300326D52 /* NoteCell.swift */,
+				07152E1520C5421700326D52 /* ProjectBaseAdapter.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -196,10 +196,10 @@
 		07152E2020C9017E00326D52 /* json */ = {
 			isa = PBXGroup;
 			children = (
-				07152E2D20CA1BE400326D52 /* test.json */,
-				07152E2520C9032600326D52 /* notebooks.json */,
 				07152E2A20CA130A00326D52 /* notebook_doudou.json */,
 				07152E2920CA130900326D52 /* notebook_tong.json */,
+				07152E2520C9032600326D52 /* notebooks.json */,
+				07152E2D20CA1BE400326D52 /* test.json */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -207,12 +207,12 @@
 		072175BE20B50D2800529879 = {
 			isa = PBXGroup;
 			children = (
+				1DD275E52B873DEE96CA2FBD /* Frameworks */,
 				072175C920B50D2800529879 /* iCards */,
 				072175DE20B50D2B00529879 /* iCardsTests */,
 				072175E920B50D2B00529879 /* iCardsUITests */,
-				072175C820B50D2800529879 /* Products */,
 				41F42375ABAB8800C61AA965 /* Pods */,
-				1DD275E52B873DEE96CA2FBD /* Frameworks */,
+				072175C820B50D2800529879 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,10 +230,10 @@
 			isa = PBXGroup;
 			children = (
 				072175CA20B50D2800529879 /* AppDelegate.swift */,
-				072175CC20B50D2800529879 /* ViewController.swift */,
-				072942EA20BBF37D009FA3D4 /* Source */,
 				07152E1F20C9017E00326D52 /* Resource */,
+				072942EA20BBF37D009FA3D4 /* Source */,
 				072175FA20B513DB00529879 /* SupportingFiles */,
+				072175CC20B50D2800529879 /* ViewController.swift */,
 			);
 			path = iCards;
 			sourceTree = "<group>";
@@ -259,12 +259,12 @@
 		072175FA20B513DB00529879 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				07665E4320B804450011A269 /* iCards.entitlements */,
-				072175CE20B50D2800529879 /* Main.storyboard */,
 				072175D120B50D2B00529879 /* Assets.xcassets */,
-				072175D320B50D2B00529879 /* LaunchScreen.storyboard */,
-				072175D620B50D2B00529879 /* Info.plist */,
 				072175F820B50DE800529879 /* GoogleService-Info.plist */,
+				07665E4320B804450011A269 /* iCards.entitlements */,
+				072175D620B50D2B00529879 /* Info.plist */,
+				072175D320B50D2B00529879 /* LaunchScreen.storyboard */,
+				072175CE20B50D2800529879 /* Main.storyboard */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -272,13 +272,13 @@
 		072942EA20BBF37D009FA3D4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				07152DF520C4DEE900326D52 /* Firebase */,
-				072942EB20BBF37D009FA3D4 /* UI */,
-				072942ED20BBF37D009FA3D4 /* Networking */,
-				072942F120BBF37D009FA3D4 /* Models */,
 				072942F620BBF37D009FA3D4 /* Common */,
-				072942F920BBF37D009FA3D4 /* ViewControllers */,
+				07152DF520C4DEE900326D52 /* Firebase */,
+				072942F120BBF37D009FA3D4 /* Models */,
+				072942ED20BBF37D009FA3D4 /* Networking */,
 				0729430F20BBF37D009FA3D4 /* Table */,
+				072942EB20BBF37D009FA3D4 /* UI */,
+				072942F920BBF37D009FA3D4 /* ViewControllers */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -295,8 +295,8 @@
 			isa = PBXGroup;
 			children = (
 				072942EE20BBF37D009FA3D4 /* Constants.swift */,
-				072942EF20BBF37D009FA3D4 /* Services.swift */,
 				072942F020BBF37D009FA3D4 /* Requests.swift */,
+				072942EF20BBF37D009FA3D4 /* Services.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -304,9 +304,9 @@
 		072942F120BBF37D009FA3D4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				072942F220BBF37D009FA3D4 /* UsagePath.swift */,
 				07152DFC20C5285200326D52 /* Models.swift */,
 				07152E2720C92E5900326D52 /* NotebookDatasource.swift */,
+				072942F220BBF37D009FA3D4 /* UsagePath.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -315,8 +315,8 @@
 			isa = PBXGroup;
 			children = (
 				072942F720BBF37D009FA3D4 /* CGFloatExtensions.swift */,
-				072942F820BBF37D009FA3D4 /* UIViewControllerExtensions.swift */,
 				07152DFA20C4E16700326D52 /* Log.swift */,
+				072942F820BBF37D009FA3D4 /* UIViewControllerExtensions.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -324,15 +324,15 @@
 		072942F920BBF37D009FA3D4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				07152E1420C5421700326D52 /* Table */,
-				07152DF020C4DA9600326D52 /* Segue */,
-				0729430720BBF37D009FA3D4 /* Popover */,
 				07152E0B20C53F6C00326D52 /* Common */,
-				0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */,
 				07152E0320C53C7000326D52 /* NotesViewController.swift */,
-				07152E0520C53E6A00326D52 /* ReviewViewController.swift */,
 				07152E2F20CA22F500326D52 /* NoteViewController.swift */,
+				0729430720BBF37D009FA3D4 /* Popover */,
+				07152E0520C53E6A00326D52 /* ReviewViewController.swift */,
+				07152DF020C4DA9600326D52 /* Segue */,
 				0729430E20BBF37D009FA3D4 /* SettingsViewController.swift */,
+				0729435C20BBF5DE009FA3D4 /* SplashViewController.swift */,
+				07152E1420C5421700326D52 /* Table */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -485,14 +485,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072175D520B50D2B00529879 /* LaunchScreen.storyboard in Resources */,
-				07152E2E20CA1BE400326D52 /* test.json in Resources */,
-				072175F920B50DE800529879 /* GoogleService-Info.plist in Resources */,
-				07152E2B20CA130A00326D52 /* notebook_tong.json in Resources */,
 				072175D220B50D2B00529879 /* Assets.xcassets in Resources */,
+				072175F920B50DE800529879 /* GoogleService-Info.plist in Resources */,
+				072175D520B50D2B00529879 /* LaunchScreen.storyboard in Resources */,
 				072175D020B50D2800529879 /* Main.storyboard in Resources */,
-				07152E2620C9032600326D52 /* notebooks.json in Resources */,
 				07152E2C20CA130A00326D52 /* notebook_doudou.json in Resources */,
+				07152E2B20CA130A00326D52 /* notebook_tong.json in Resources */,
+				07152E2620C9032600326D52 /* notebooks.json in Resources */,
+				07152E2E20CA1BE400326D52 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,36 +608,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07152E1120C53F6C00326D52 /* NavigationViewController.swift in Sources */,
-				0729433D20BBF37D009FA3D4 /* PopoverViewController.swift in Sources */,
-				0729432820BBF37D009FA3D4 /* Services.swift in Sources */,
-				07152DF420C4DBCC00326D52 /* SegueId.swift in Sources */,
-				0729434320BBF37D009FA3D4 /* SettingsViewController.swift in Sources */,
-				07152E3220CA23D000326D52 /* CardSegue.swift in Sources */,
-				072175CD20B50D2800529879 /* ViewController.swift in Sources */,
-				0729435B20BBF42C009FA3D4 /* BaseAdapter.swift in Sources */,
-				0729435D20BBF5DE009FA3D4 /* SplashViewController.swift in Sources */,
-				07152E3020CA22F500326D52 /* NoteViewController.swift in Sources */,
-				0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */,
-				07152E0420C53C7000326D52 /* NotesViewController.swift in Sources */,
-				07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */,
-				07152E1920C5424300326D52 /* NoteCell.swift in Sources */,
-				0729432F20BBF37D009FA3D4 /* UIViewControllerExtensions.swift in Sources */,
-				07152E1620C5421700326D52 /* ProjectBaseAdapter.swift in Sources */,
-				07152E0620C53E6A00326D52 /* ReviewViewController.swift in Sources */,
-				0729432620BBF37D009FA3D4 /* Style.swift in Sources */,
-				07152E0F20C53F6C00326D52 /* BaseViewController.swift in Sources */,
-				07152E1020C53F6C00326D52 /* TabViewController.swift in Sources */,
-				07152DF220C4DA9700326D52 /* CrossFadeSegue.swift in Sources */,
-				07152E1C20C6827200326D52 /* CellItemConvertible.swift in Sources */,
-				0729432920BBF37D009FA3D4 /* Requests.swift in Sources */,
-				07152DFD20C5285200326D52 /* Models.swift in Sources */,
-				07152DFB20C4E16700326D52 /* Log.swift in Sources */,
-				07152E2820C92E5900326D52 /* NotebookDatasource.swift in Sources */,
 				072175CB20B50D2800529879 /* AppDelegate.swift in Sources */,
-				07152DF720C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift in Sources */,
-				0729432720BBF37D009FA3D4 /* Constants.swift in Sources */,
+				0729435B20BBF42C009FA3D4 /* BaseAdapter.swift in Sources */,
+				07152E0F20C53F6C00326D52 /* BaseViewController.swift in Sources */,
+				07152E3220CA23D000326D52 /* CardSegue.swift in Sources */,
+				07152E1C20C6827200326D52 /* CellItemConvertible.swift in Sources */,
 				0729432E20BBF37D009FA3D4 /* CGFloatExtensions.swift in Sources */,
+				0729432720BBF37D009FA3D4 /* Constants.swift in Sources */,
+				07152DF220C4DA9700326D52 /* CrossFadeSegue.swift in Sources */,
+				07152DF920C4DF8300326D52 /* FirebaseAuthExtensions.swift in Sources */,
+				07152DF720C4DF2300326D52 /* FirebaseCloudMessageExtensions.swift in Sources */,
+				07152DFB20C4E16700326D52 /* Log.swift in Sources */,
+				07152DFD20C5285200326D52 /* Models.swift in Sources */,
+				07152E1120C53F6C00326D52 /* NavigationViewController.swift in Sources */,
+				07152E2820C92E5900326D52 /* NotebookDatasource.swift in Sources */,
+				07152E1920C5424300326D52 /* NoteCell.swift in Sources */,
+				07152E0420C53C7000326D52 /* NotesViewController.swift in Sources */,
+				07152E3020CA22F500326D52 /* NoteViewController.swift in Sources */,
+				0729433D20BBF37D009FA3D4 /* PopoverViewController.swift in Sources */,
+				07152E1620C5421700326D52 /* ProjectBaseAdapter.swift in Sources */,
+				0729432920BBF37D009FA3D4 /* Requests.swift in Sources */,
+				07152E0620C53E6A00326D52 /* ReviewViewController.swift in Sources */,
+				07152DF420C4DBCC00326D52 /* SegueId.swift in Sources */,
+				0729432820BBF37D009FA3D4 /* Services.swift in Sources */,
+				0729434320BBF37D009FA3D4 /* SettingsViewController.swift in Sources */,
+				0729435D20BBF5DE009FA3D4 /* SplashViewController.swift in Sources */,
+				0729432620BBF37D009FA3D4 /* Style.swift in Sources */,
+				07152E1020C53F6C00326D52 /* TabViewController.swift in Sources */,
+				0729432F20BBF37D009FA3D4 /* UIViewControllerExtensions.swift in Sources */,
+				0729432A20BBF37D009FA3D4 /* UsagePath.swift in Sources */,
+				072175CD20B50D2800529879 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
