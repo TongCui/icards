@@ -10,4 +10,4 @@ tags: book
 - 哲学家都在想什么
 - 1981 林皓欣
 
-![哲学家都在想什么](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/philosopher.pdf)
+![哲学家都在想什么](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/philosopher.png)
