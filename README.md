@@ -8,8 +8,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (112 Notes)
+###  tong (113 Notes)
 
+#####  2019-04-01
+- [螺旋式通缩](/notebooks/tong/deflationary-spiral.md)
 #####  2019-03-30
 - [哲学家都在想什么](/notebooks/tong/book-philosopher.md)
 #####  2019-03-26
