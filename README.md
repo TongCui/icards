@@ -8,8 +8,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (115 Notes)
+###  tong (116 Notes)
 
+#####  2019-04-07
+- [LALR](/notebooks/tong/lalr.md)
 #####  2019-04-05
 - [通商宽农](/notebooks/tong/guoyu.md)
 #####  2019-04-01
