@@ -46,6 +46,10 @@ task :tong, [:new_file_name] do |task, args|
   ruby "./scripts/create_note.rb tong #{name}"
 end
 
+task :vim do
+  sh "vim `git status -sb|grep '??'|awk '{print $NF}'`"
+end
+
 desc "Push git"
 task :push => [:readme] do
   sh "git add ."
