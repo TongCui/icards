@@ -8,8 +8,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (151 Notes)
+###  tong (152 Notes)
 
+#####  2020-01-22
+- [Anna May Wong](/notebooks/tong/anna-may-wong.md)
 #####  2020-01-17
 - [Registry,Registrar,Registrant](/notebooks/tong/registry.md)
 #####  2019-12-16
