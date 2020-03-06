@@ -10,4 +10,4 @@ tags: tong,events
 - 2003 SARS
 - 2019/2020 COVID-19
 
-![covid-19-events](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/covid-19-events.jpg)
+![covid-19-events](https://raw.githubusercontent.com/TongCui/icards/master/notebooks/tong/images/covid-19-events.png)
