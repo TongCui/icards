@@ -12,8 +12,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (170 Notes)
+###  tong (171 Notes)
 
+#####  2021-11-25
+- [软件危机](/notebooks/tong/software-crisis.md)
 #####  2021-11-17
 - [缓存算法](/notebooks/tong/cache-algorithm.md)
 #####  2021-11-10
