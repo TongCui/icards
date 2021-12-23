@@ -11,7 +11,7 @@ tags: book,reading
 
 ```
 1、你为什么来这里？
-Why am you here? (What is your Purpose for Existing?)
+Why are you here? (What is your Purpose for Existing?)
 2、你害怕死亡么?
 Do you fear death?
 3、你满足么？
