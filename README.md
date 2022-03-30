@@ -12,8 +12,10 @@ iCards is a personal notbooks App
 #####  2018-06-07
 - [赋得古原草送别](/notebooks/doudou/赋得古原草送别.md)
 
-###  tong (175 Notes)
+###  tong (176 Notes)
 
+#####  2022-03-30
+- [VUCA](/notebooks/tong/vuca.md)
 #####  2022-02-22
 - [UML中的一些关系](/notebooks/tong/uml.md)
 #####  2022-02-11
